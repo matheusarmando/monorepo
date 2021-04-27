@@ -1,0 +1,24 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "description": "New Application Monorepo",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusarmando/monorepo.git"
+  },
+  "author": "Matheus Armando da Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheusarmando/monorepo/issues"
+  },
+  "homepage": "https://github.com/matheusarmando/monorepo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
